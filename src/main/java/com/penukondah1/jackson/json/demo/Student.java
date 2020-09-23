@@ -1,5 +1,8 @@
 package com.penukondah1.jackson.json.demo;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
+@JsonIgnoreProperties(ignoreUnknown=true)
 public class Student {
 	
 	private int id;
